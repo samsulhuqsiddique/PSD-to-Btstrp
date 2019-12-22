@@ -1,0 +1,336 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Lato', sans-serif;
+	background-color: #f6f9f9;
+}
+
+.logo{
+    padding: 15px 0px;
+      }
+ 
+
+.ban{
+	background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.banner{
+	margin: 0 auto;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.banner h2{
+	 font-size: 120px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+
+}
+.banner span{
+    border-bottom: 2px solid #15a4fa;
+    display: block;
+    margin: 30px auto;
+}
+.banner p{
+     color: white;
+    font-size: 20px;
+    font-weight: normal;
+}
+.banner button{
+	background: transparent;
+    margin: 60px 120px;
+    padding: 10px 19px;
+    font-size: 23px;
+    border-color: #15a4fa;
+    color: white;
+}
+.fa.fa-chevron-down{
+	color: white;
+    margin: 99px 142px;
+	}
+
+.pure{
+       margin: 80px auto;
+}
+.pure h1{
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 40px;
+}
+.pure p{
+    margin: 20px 0px;
+    text-align: center;
+    font-size: 21px;
+}
+.feature{
+   padding:80px 0px;
+   font-family: 'Girassol', cursive; 
+   background-color: white;
+}
+.feature-one{
+      text-align: center;
+ }
+.fa.fa-mobile{
+   background-color: #48baff;
+    padding: 11px 36px;
+    font-size: 68px;
+    color: white;
+}
+.feature-one h2{
+    margin: 15px 0px;
+    font-size: 25px;
+}
+.feature-one p{
+     font-size: 20px;
+    line-height: 20px;
+}
+
+.feature-two{
+     text-align: center;
+}
+.fa.fa-paper-plane{
+    background-color: #48baff;
+    padding: 20px 22px;
+    font-size: 50px;
+    color: white;
+}
+.feature-two h2{
+    margin: 15px 0px;
+    font-size: 25px;
+}
+.feature-two p{
+    font-size: 20px;
+    line-height: 20px;  
+}
+
+.feature-three{
+    text-align: center;
+}
+.fa.fa-bullhorn{
+   background-color: #48baff;
+    padding: 20px 22px;
+    font-size: 50px;
+    color: white;
+ }
+.feature-three h2{
+    margin: 15px 0px;
+    font-size: 25px;
+}
+.feature-three p{
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.portfolio {
+ 
+    text-align: center;
+    margin: 50px 0px;
+   float: left;
+}
+.portfolio h2{
+    font-size: 40px;
+}
+.portfolio p{
+    font-size: 15px;
+    margin: 10px;
+}
+.portfolio-one{
+   float: left;
+  }
+.portfolio-two{
+      float: left;
+ }
+.portfolio-three{
+     float: left;
+ }
+.port{
+       margin-top: 19px;
+       margin-bottom: 90px;
+}
+.portfolio-four{
+    
+    float: left;
+}
+.portfolio-five{
+   
+    float: left;
+   
+}
+.portfolio-six{
+    
+    float: left;
+}
+.stay{
+       background-image: url(../img/stay.png);
+      background-repeat: no-repeat;
+    background-size: cover;
+}
+.overlap {
+    background-color: #000000de;
+    padding: 50px 0px 0px 0px;
+}
+
+.support{
+    text-align: center;
+    color: white;
+}
+.support h2{
+    font-size: 45px;
+}
+.support p {
+    font-size: 20px;
+    margin: 15px 0px;
+}
+.form-control{
+    width: 100%;
+    height: 40px;
+    margin: 5px 0px;
+    background-color: transparent;
+    border-color: #999999;
+    color: white;
+    font-size: 18px;
+
+}
+.area-control{
+    width: 100%;
+    background: transparent;
+    border-color: #999999;
+    height: 140px;
+    margin: 10px 0px;
+    color: white;
+    font-size: 18px;
+}
+::placeholder {
+color:white;
+font-size: 15px;
+padding-left: 15px;
+}
+.left{
+    float: left;
+    margin: 10px 0px;
+}
+
+.support span{
+    float: left;
+    margin: 6px 0px 90px 10px;
+ }
+ 
+.right{
+    float: right;
+    padding: 5px 52px;
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+    border-color: #15a4fa;
+}
+
+.copywrite{
+     margin: 25px 0px;
+    color: #acacac;
+}
+.icons{
+    text-align: right;
+}
+.icons ul{
+       list-style: none;
+}
+.icons ul li{
+    display: inline-block;
+    margin: 25px 1px;
+    background-color: #15a4fa;
+    padding: 10px;
+}
+.icons ul li a{
+       color: white;
+       padding: 5px; 
+}
+
+/* For mobile device*/
+@media (min-width: 0px) and (max-width: 500px){
+
+  .ban {
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.feature {
+    padding: 10px 0px;
+    font-family: 'Girassol', cursive;
+    background-color: white;
+}
+
+    .banner button {
+    background: transparent;
+    margin: 25px 14px;
+    padding: 10px 19px;
+    font-size: 23px;
+    border-color: #15a4fa;
+    color: white;
+}
+.fa.fa-chevron-down {
+    color: white;
+    margin: 22px 110px;
+}
+.banner {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.banner h2 {
+    font-size: 61px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.support span {
+    float: left;
+    margin: 0px 0px 0px 4px;
+}
+.right {
+    float: right;
+    padding: 4px 20px;
+    font-size: 14px;
+    background-color: transparent;
+    color: white;
+    border-color: #15a4fa;
+}
+.left {
+    float: left;
+    margin: 7px 0px;
+}
+.overlap {
+    background-color: #000000de;
+    padding: 0px 0px 14px 0px;
+}
+.icons ul li {
+    display: inline-block;
+    background-color: #15a4fa;
+    padding: 0px;
+    margin: 0px;
+}
+.copywrite {
+    margin: 0px 0px;
+    color: #acacac;
+    font-size: 14px;
+}
+
+}
+/* For small device*/
+@media ( min-width: 501px) and (max-width: 768px){
+
+}
+
+/* For notebook device*/
+@media ( min-width: 768.01px) and (max-width: 992px){
+    
+}
+/* For large device*/
+@media ( min-width: 992.01px) and (max-width: 1200px){
+    
+}
